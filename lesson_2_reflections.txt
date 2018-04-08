@@ -1,10 +1,12 @@
 What happens when you initialize a repository? Why do you need to do it?
 It creates the .git file with the git repository metadata that tracks the commit
 history. This needs to be done to actually create the repository.
-(Just adding a line, to try another commit.)
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+It is basically a temporary place where one can stage changes. It gives pace to
+saving changes I think. 
+(Is this recognizing my changes.?)
 
 How can you use the staging area to make sure you have one commit per logical
 change?
