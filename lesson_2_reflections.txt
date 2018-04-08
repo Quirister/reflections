@@ -6,15 +6,19 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 It is basically a temporary place where one can stage changes. It gives pace to
 saving changes I think. 
-(Is this recognizing my changes.?)
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+Only add those files there that contain the change.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+When working on a new feature or when multiple people are working on the same
+project, addressing various issues. Branches keep the main code intact but allow
+for working on/improving some of its parts.
 
 How do the diagrams help you visualize the branch structure?
+They help identify parents and predict what will be the result of merging.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
