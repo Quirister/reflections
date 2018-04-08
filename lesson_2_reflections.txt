@@ -22,6 +22,10 @@ They help identify parents and predict what will be the result of merging.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+It merges all the changes from both branches and the commit history as well. 
+Because they become one commit from 2 parents.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+We only have to resolve merge conflicts, not the update of all the code. 
+There might be too many updates to take care of manually.
